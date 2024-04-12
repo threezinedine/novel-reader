@@ -1,0 +1,38 @@
+﻿
+.selected {
+    position: absolute;
+    z-index: 49;
+    border: 2px dashed orange;
+    border-radius: 3px;
+}
+
+.inspector-element {
+    position: absolute;
+    z-index: 100;
+    pointer-events: none;
+    border: 1px dashed rgb(139 92 246);
+    box-shadow: 0 0 3px rgb(139 92 246);
+    animation: pulseGlow 1s infinite ease-in-out;
+    border-radius: 2px;
+    transition: all 250ms ease-in-out;
+    background-color: rgba(250, 250, 250, 0.1);
+}
+
+#wrapper {
+    cursor: pointer;
+    padding-top: 20px;
+}
+
+@keyframes pulseGlow {
+    0% {
+        box-shadow: 0 0 3px rgb(139 92 246);
+    }
+
+    50% {
+        box-shadow: 0 0 8px rgb(139 92 200);
+    }
+
+    100% {
+        box-shadow: 0 0 3px rgb(139 92 246);
+    }
+}

@@ -1,0 +1,21 @@
+.expandable-menu-content 
+{
+    position: absolute;
+    z-index: 3;
+}
+
+    .expandable-menu-content:after {
+        content: "";
+        position: absolute;
+        top: 0;
+        top: -25px;
+        left: 0;
+        width: 30px;
+        height: 30px;
+        border-bottom: 15px solid #fff;
+        border-left: none;
+        border-right: none;
+        border-top: none;
+        margin-right: 100%;
+        z-index: 1;
+    }

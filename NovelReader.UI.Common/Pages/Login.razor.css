@@ -1,0 +1,14 @@
+.google-btn 
+{
+    background-color: transparent;
+}
+
+.google-btn div 
+{
+    color: var(--google-color);
+}
+
+.google-btn span
+{
+    color: var(--white-color);
+}

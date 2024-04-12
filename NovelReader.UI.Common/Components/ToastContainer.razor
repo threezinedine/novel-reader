@@ -1,0 +1,10 @@
+﻿<div class="toast-container">
+	@foreach (var message in m_Messages)
+	{
+		<ToastMessage Data="@message" OnRemove="() => RemoveMessage(message)" />
+	}
+</div>
+
+@code {
+
+}

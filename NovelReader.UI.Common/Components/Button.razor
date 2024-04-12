@@ -1,0 +1,10 @@
+﻿<button class="@CommonClass @(m_IsHovered ? HoverClass : NonHoverClass)" 
+		@onmouseenter="@(() => m_IsHovered = true)"
+		@onmouseleave="@(() => m_IsHovered = false)"
+		@onclick="OnButtonClick">
+	@Title
+</button>
+
+@code {
+
+}

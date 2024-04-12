@@ -1,0 +1,10 @@
+input 
+{
+    color: var(--text-color);
+}
+
+.error-msg 
+{
+    top: 100%;
+    left: 0;
+}
